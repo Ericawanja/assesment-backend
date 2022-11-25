@@ -1,6 +1,6 @@
 CREATE OR ALTER PROCEDURE getAllProducts 
 AS 
 BEGIN
-select * from productsTable
+select * from productsTable where instore= 'yes'
 END
 
